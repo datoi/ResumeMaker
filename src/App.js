@@ -59,7 +59,7 @@ class App extends Component {
 
 
         return (
-            <BrowserRouter>
+            <BrowserRouter basename="/redberry">
                 <Routes>
                     <Route element={<RunTimeResume formData={this.state.formData}/>}></Route>
                     <Route path='/' element={<HomePage/>}></Route>

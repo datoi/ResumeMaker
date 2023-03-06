@@ -122,7 +122,7 @@ const Experience = ({formData, onInputChange, refreshClick}) => {
     return (
         <div className='cont d-flex'>
             <div className='refresh-button'>
-                <Link onClick={refreshClick} to='/'><img className='Ellipse' src="/images/Ellipse%201.png" alt=""/><img className='Vector' src="/images/Vector.png" alt=""/></Link>
+                <Link onClick={refreshClick} to='/'><img className='Ellipse' src="/redberry/images/Ellipse%201.png" alt=""/><img className='Vector' src="/redberry/images/Vector.png" alt=""/></Link>
             </div>
             <div className='inner-cont'>
                 <div className=''>

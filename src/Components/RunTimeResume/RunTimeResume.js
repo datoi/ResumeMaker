@@ -11,12 +11,12 @@ const RunTimeResume = ({formData}) => {
                                 </div>
                                 <div className='personal-info my-3'>
                                     {formData.email.length > 0 && (
-                                        <div className='mb-1 d-flex'><img className='email' src="/images/dogy.png"/>
+                                        <div className='mb-1 d-flex'><img className='email' src="/redberry/images/dogy.png"/>
                                             <span>{formData.email}</span>
                                         </div>
                                     )}
                                     {formData.phone_number.length > 0 && (
-                                        <div className='d-flex'><img className='mobile' src="/images/phone.png"/>
+                                        <div className='d-flex'><img className='mobile' src="/redberry/images/phone.png"/>
                                             <span>{formData.phone_number}</span>
                                         </div>
                                     )}
@@ -72,7 +72,7 @@ const RunTimeResume = ({formData}) => {
                     </div>
 
                     <div className='resume-logo-container position-absolute bottom-0 start-0' style={{flex: '1'}}>
-                        <img className='resume-logo ' src="/images/LOGO-12%201.png" alt=""/>
+                        <img className='resume-logo ' src="/redberry/images/LOGO-12%201.png" alt=""/>
                     </div>
                 </div>
             </div>
